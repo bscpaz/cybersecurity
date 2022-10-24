@@ -16,7 +16,7 @@ https://portswigger.net/web-security
 
 ### Two actions in just one open
 ##### With CRLF (%0D%0A) Injection: 
-_When a browser sends a request to a web server, the web server answers back with a response containing both the HTTP response headers and the actual website content, i.e. the response body. The HTTP headers and the HTML response (the website content) are separated by a specific combination of special characters, namely a carriage return and a line feed. For short they are also known as CRLF(%0D%0A)._
+_When a browser sends a request to a web server, the web server answers back with a response containing both the HTTP response headers and the actual website content, i.e. the response body. The HTTP headers and the HTML response (the website content) are separated by a specific combination of special characters, namely a carriage return and a line feed. For short they are also known as CRLF(%0D%0A). The web server uses the CRLF to understand when new HTTP header begins and another one ends._
 
 See more: https://book.hacktricks.xyz/pentesting-web/crlf-0d-0a
 
