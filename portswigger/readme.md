@@ -14,7 +14,8 @@ https://portswigger.net/web-security
 * CSRF where Referer validation depends on header being present
 * CSRF with broken Referer validation
 
-### Two actions in just one open
+### CSRF where token is tied to non-session cookie
+#### Two actions in just one open
 
 Adversaries craft a web form with some values and inject a cookie that's is related to those values given. But the adversaries need to do that in just one step.
 
