@@ -43,7 +43,7 @@ See more: https://book.hacktricks.xyz/pentesting-web/crlf-0d-0a
         position:relative;
         width: 750px;
         height: 550px;
-        opacity: 0.1 -- to 0.0001
+        opacity: 0.1; -- to 0.0001
         z-index: 2;
     }
     div {
