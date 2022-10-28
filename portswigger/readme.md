@@ -25,7 +25,7 @@ Find a place in the website that returns something, add the link in the "src" at
 <img src="https://URL/?search=test%0D%0ASet-Cookie:%20csrfKey=YOUR-KEY%3b%20SameSite=None" --action #1 - inject a needed cookie
   onerror="document.forms[0].submit()"> -- action #2 - submit
 ```
-As the content of "src" attribute is invalid (it set a cookie on client's browser), the content of "onerror" (a submit) will execute in sequence.
+The value of the _src_ attribute is invalid and throws an error. This triggers the onerror event handler, which then calls the form's _submit()_. As a result, the payload is executed whenever the user's browser attempts to load the page containing your malicious post.
 
 %3B = ";"
 
