@@ -41,15 +41,15 @@ See more: https://book.hacktricks.xyz/pentesting-web/crlf-0d-0a
 <style>
     iframe {
         position:relative;
-        width:750px;
+        width: 750px;
         height: 550px;
-        opacity: 0.1
+        opacity: 0.1 -- to 0.0001
         z-index: 2;
     }
     div {
-        position:absolute;
-        top:500;
-        left:60;
+        position: absolute;
+        top: 500;
+        left: 60;
         z-index: 1;
     }
 </style>
