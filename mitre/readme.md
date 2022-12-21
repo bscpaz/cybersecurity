@@ -53,3 +53,6 @@ https://attack.mitre.org/mitigations/M1042/
 ### Abuse Elevation Control Mechanism: Bypass User Account Control (T1548/002)
 * Type "UAC" on search bar;
 * Use the highest enforcement level for UAC
+
+### Microsoft Defender Application Guard
+* https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/overview-attack-surface-reduction?view=o365-worldwide
