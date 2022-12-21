@@ -60,6 +60,8 @@ _For Microsoft Edge, Application Guard helps to isolate enterprise-defined untru
 
 * https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/overview-attack-surface-reduction?view=o365-worldwide
 * https://learn.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-application-guard/test-scenarios-md-app-guard
+  * Windows > "Editor de política de grupo"
+
 
 
 
